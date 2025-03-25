@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+
+#main-content{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../images/apple.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: transparent;
+    height: 100vh;
+    gap: 4em;
+    
+
+}
+
+#main-content nav{
+    color: rgb(66, 16, 16);
+    padding:0 2em;
+    gap: 1em;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    margin: 0 2em;
+    height: 10vh;
+    font-size: 1em;
+
+}
+
+#main-content h3{
+    text-decoration: white;
+    padding: 2em;
+    gap: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    font-size: 2.8em;
+
+}
+
+.one{
+    background-color: rgb(24, 145, 192);
+    padding: 0.7em;
+    font-size: 1em;
+    display: inline-block;
+    margin-top: 0em;
+}
+
+
+#navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+#navlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+.gero{
+    color: #FFFFFF;
+    padding: 3em;
+}
+
+
+
+#goat{
+    display: flex;
+    padding: 0;
+    height: 80vh;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3em;
+    color: black;
+}
+
+#ana img{
+  width: 30vw;
+  height: 50vh;
+  margin-top: 10em;
+}
+
+#all{
+    font-size: 1.7em;
+    gap: 0.5em
+}
+
+#so{
+    font-size: 0.7em;
+    color: black;
+    height: 8vh;
+}
+
+#button{
+    display: fl;
+    width: 20em;
+    font-size: 0.3em;
+    padding: 0.5em;
+}
+
+
+
