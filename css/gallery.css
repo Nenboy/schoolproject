@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+#text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding: 2em;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ; 
+    gap: 2em;
+    place-items: center;
+    padding: 5em;
+    }
+    .gallery img{
+        width: 25vw;
+        height: 30vh;
+    }
+    .pagination{
+        text-align: center;
+    
+    }
+    .pagination a{
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        padding: 8px 15px;
+    }
+    .pagination a.active{
+        background-color: blue;
+        border-radius: 50%;
+        font-weight: bold;
+
+    }
+
+    .pagination a:hover:not(.active){
+        background-color: grey;
+        border-radius: 50%;
+    }
