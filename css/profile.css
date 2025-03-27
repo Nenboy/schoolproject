@@ -131,7 +131,7 @@ margin: 0.2em 0.6em;
     padding: 0em 6.25em;
 }
 #table table{
-    border-collapse: 1px;
+    border-collapse: 1em;
     border-color: #101524;
     padding: 0em 6.25em;  
 }
@@ -156,5 +156,5 @@ tr:nth-child(even) {background-color: #B9CAFF;}
     text-align: center;
 }
 #table4 table{
-    text-align: center;
+    text-align: center;
 }
