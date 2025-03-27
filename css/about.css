@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    padding: 0.9em;
+    background-color:  #101524;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 6.25em;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0em 1.25em;
+}
+
+.navdiv a{
+    color: gray;
+   text-decoration: none;
+  
+}
+.navdiv a::after{
+    content: '';
+    display: block;
+    width: 1vw;
+    height: 0.2vh;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+.navdiv a:hover::after{
+    content: '';
+    display: block;
+    width: 1vw;
+    height: 2px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    justify-content: center;
+    margin: 0.2em 0.6em;
+}
+.navdiv a:hover{
+    color: #FFFFFF;
+}
+#header{
+   background-image:url(Images/image\ 18.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#header h2{
+    text-align: center;
+    margin-top: 0;
+    color: #FFFFFF;
+}
+#header p{
+    text-align: center;
+    color: #DFDFDF;
+}
+.header1 {
+    margin-bottom: 4em;
+}
+.header1 h2{
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+.header1 p{
+    text-align: justify;
+    padding: 0em 6.25em;
+}
+.header2{
+    display: flex;
+    border-bottom: 1px solid rgb(226, 218, 218);
+    justify-content: space-between;
+    gap: 1em 2em;
+    padding: 0em 3.1em;
+} 
+.header2 a{
+    text-decoration: none;
+    color: #0C101A;
+} 
+
+#contact p{
+    line-height: 4vh;
+    width: 25vw;
+    margin-bottom: 2em;
+}
+#contact a{
+    display: flex;
+    flex-direction: column;
+    line-height: 4vh;
+}
+#page-options{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#page-options,.other-options a{
+    line-height: 6vh;
+}
+.other-options{
+    display: flex;
+    flex-direction: column;
+}
+#media a{
+    border: 7px solid #F9F9F9;
+    border-radius: 4px;
+}
+.read{
+    display: flex;
+    gap: 1em;
+    padding: 4em;
+    flex-direction: column;
+    margin-top: 7em;
+    background-color: #f3f1f1;
+    border-top: 1px solid grey;
+    border-radius: 10px;
+}
+.read{
+    padding-bottom: 0;
+    margin: 0;
+}
+.write{
+    padding: 0em 3.1em;
+}
+
+
+
